@@ -1,5 +1,5 @@
 # Sawgrass Boombox Demo Android App
-A demo Android app (POC) for controlling a 12 channel multi-zone audio amplifier over local network (Telnet) via an **[RS-232 Port Server](https://static1.squarespace.com/static/54d27fb4e4b024eccdd9e569/t/555d23e0e4b00b0c736fc091/1432167392238/NPC22T.pdf)**. A very simple and reliable way to control multi-zone audio on your smartphone without the need for cloud-connected devices. 
+A demo Android app (POC) for controlling a 12 channel multi-zone audio amplifier (B&K Components CT600) over local network (Telnet) via an **[RS-232 Port Server](https://static1.squarespace.com/static/54d27fb4e4b024eccdd9e569/t/555d23e0e4b00b0c736fc091/1432167392238/NPC22T.pdf)** (netCommander NPC-2201). A very simple and reliable way to control multi-zone audio on your smartphone without the need for cloud-connected devices. 
 
 The app opens a socket connection to the specific IP & port of the RS-232 Port Server and sends simple commands (Telnet style). The Port Server forwards commands over RS-232 to the multi-zone amplifier. The protocol used by the amplifier is propriety and unpublished (as far as I can tell) but is simple enough to be easily reverse-engineered. Audio can be cast from the phone or online streaming service using a Chromecast Audio connected to the amplifier.
 
