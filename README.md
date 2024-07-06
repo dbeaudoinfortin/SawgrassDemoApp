@@ -8,3 +8,9 @@ The app opens a socket connection to the specific IP & port of the RS-232 Port S
 This demo app just turns on/off individual zones but could be expanded for volume control, input selection, equalization, power on/off, etc. The IP and port of the Port Server is hardcoded but could probably make use of automatic discovery protocols instead. The advantage of using an analog multi-zone amplifier compared to multiple smarthome speaker devices is low latency and perfect synchronization.   
 
 The goal of this project is to very simply and cheaply add smartphone control to an existing multi-zone audio system without the need to replace perfectly good and working equipement that predates modern smarthome devices.
+
+## Legal Stuff
+
+Copyright (c) 2020 David Fortin
+
+This software is provided by David Fortin under the MIT License, meaning you are free to use it however you want, as long as you include the original copyright notice (above) and license notice in any copy you make. You just can't hold me liable in case something goes wrong. License details can be read [here](https://github.com/dbeaudoinfortin/SawgrassDemoApp?tab=MIT-1-ov-file)
